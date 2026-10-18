@@ -5,11 +5,11 @@ import { getDatabase, ref, get, set, update, remove, onValue } from "https://www
 // Replace these placeholders with the Web App config from Firebase Console -> Project settings -> Your apps.
 // The web config is not a server secret; access is enforced by Firebase Authentication + Realtime Database Rules.
 const firebaseConfig = {
-  apiKey: "PASTE_YOUR_FIREBASE_WEB_API_KEY",
+  apiKey: "AIzaSyAls-YQ_xSMB4mHlzJ1GupQFag5vQHA_sA",
   authDomain: "rfidatt-85a3d.firebaseapp.com",
   databaseURL: "https://rfidatt-85a3d-default-rtdb.firebaseio.com",
   projectId: "rfidatt-85a3d",
-  appId: "PASTE_YOUR_FIREBASE_APP_ID"
+  appId: "1:31918754059:web:89fb9a37a5306a2226fa0e"
 };
 
 const app = initializeApp(firebaseConfig);
