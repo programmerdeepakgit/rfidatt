@@ -1,0 +1,14 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "students": {
+      ".read": "auth != null && auth.uid === 'YOUR_ADMIN_UID'",
+      ".write": "auth != null && auth.uid === 'YOUR_ADMIN_UID'"
+    },
+    "attendance": {
+      ".read": "auth != null && auth.uid === 'YOUR_ADMIN_UID'",
+      ".write": false
+    }
+  }
+}
